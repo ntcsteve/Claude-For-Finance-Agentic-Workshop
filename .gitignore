@@ -1,0 +1,41 @@
+# Facilitator-only — keep local, NEVER publish to the public repo.
+# facilitator/ = delivery notes; the answer key = the Lab 2 spoilers.
+# (The rest of rescue/ — known-good file copies — is public on purpose, for self-rescue.)
+facilitator/
+rescue/lab2-answer-key.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude Code session files
+MEMORY.md
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Editor
+.vscode/
+.idea/
+
+# Workshop outputs — generated during labs, not committed
+notes/food-research.md
+notes/dbs-research.md
+notes/dbs-validation.md
+notes/dbs-brief.md
+notes/dbs-research-poisoned.md
+notes/dbs-validation-poisoned.md
+notes/async/*.md
+
+# Lab-created agent/skill files — participant/facilitator dry-run output.
+# .claude/agents/ and .claude/skills/ ship empty (see rescue/ for known-good
+# copies); reset before each delivery rather than committing lab output.
+.claude/agents/*.md
+.claude/skills/*/
+
+# Advanced A (optional) — audit log and hook script created during that exercise
+notes/audit-log.txt
+.claude/hooks/
+
+# Build output — regenerate with scripts/package-for-participants.sh, don't commit
+finance-workshop-participant.zip
