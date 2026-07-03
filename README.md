@@ -1,6 +1,7 @@
 # Claude Code for Finance — Workshop Repo
 
 **Workshop guide:** `docs/participant-guide.md`
+**Web version:** `docs/index.html` (a self-contained browser version of the same guide, also servable via GitHub Pages)
 
 Open the guide and follow it from the top. Everything you need is in there.
 
@@ -13,6 +14,7 @@ See `LICENSE.md` before reusing or redistributing anything in this repo.
 | Path | Purpose |
 |---|---|
 | `docs/participant-guide.md` | Full workshop guide — start here |
+| `docs/index.html` | Web version of the guide. Self-contained single page (no dependencies), works offline or via GitHub Pages. Mirrors `participant-guide.md`, so keep the two in sync when either changes. |
 | `notes/dbs-excerpt.md` | DBS financial excerpt used in Labs 3–5. **Sample data** — illustrative only, not real-time financials (see the disclaimer at the top of the file) |
 | `notes/food-raw.md` | Singapore food notes used in Lab 2. **Contains intentionally incorrect claims** for a hallucination-catching exercise — not accurate food history or trivia |
 | `notes/async/` | Empty folder — async pipeline output lands here in Lab 6 |
